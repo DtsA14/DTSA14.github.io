@@ -1,38 +1,91 @@
-* {
-  box-sizing: border-box;
-}
+*{
 
-body {
   margin: 0;
-  font-family: "Lucida Grande";
-}
-
-a {
-  text-decoration: none;
+  padding: 0;
+  font-family:
 }
 
 .clear {
   clear: left;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #273c75;
+  opacity: 0.9;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+ }
+
+.header-left{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  float: left;
+  font-family: brush script std;
+}
+
+.header-left p {
+  padding-top: 10px;
+}
+.header-right {
+  float: right;
+  background-color: white;
+  border-radius: 35px;
+  margin-top: 10px;
+}
+
+
+.login:hover {
+  background-color: rgba(84, 160, 255,1.0);
+  color: white;
+  transition: 0.5s;
+  border-radius: 35px;
+}
+.header-right a {
+  line-height: 40px;
+  padding: 0 25px;
+  display:block;
+}
+
+.top-wrapper {
+  height: 400px;
+  background-color: rgb(69, 150, 255, 0.9);
+  color: white;
+  background-image: url(https://digitalent.kominfo.go.id/assets/@images/small-ld.png);
+  background-repeat: no-repeat;
+  background-position-x: 820px;
+  background-size: 400px;
+  max-width: 100%;
+  padding-top: 80px;
+}
+
+
 .container {
   max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
+
+.kuning{
+  color: yellow;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
@@ -41,164 +94,110 @@ a {
   margin-bottom: 3px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .btn-wrapper {
-  text-align: center;
   margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
 }
 
 .btn {
   padding: 12px 24px;
-  color: white;
+  color: blue;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
-  text-align: center;
 }
 
 .btn:hover {
   opacity: 1;
 }
 
-.fa {
-  margin-right: 5px;
+.read {
+  border: solid 2px blue;
+  background-color: white;
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.menu-icon{
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
 
 .lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+  height: 500px;
+  padding-bottom: px;
   background-color: #f7f7f7;
   text-align: center;
 }
-
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 30px;
   color: #5f5d60;
 }
-
-.heading h2 {
+ h2 {
   font-weight: normal;
+  text-align: center;
 }
-
 .lesson {
   float: left;
-  width: 25%;
+  width: 20%;
 }
-
 .lesson-icon {
   position: relative;
 }
-
 .lesson-icon p {
   position: absolute;
-  top: 44%;
+  top: 140px;
   width: 100%;
-  color: white;
+  color: blue;
 }
-
-.text-contents {
+.txt-contents {
   width: 80%;
-  display: inline-block;
-  margin-top: 15px;
+  display:inline-block;
+  margin-top: 80px;
   font-size: 15px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
+  color: red;
 }
 
 .message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
+text-align: center;
+padding-bottom:80px;
+border-bottom:1px solid #eee;
 }
 
+
+
 .message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+padding:15px 40px;
+background-color:#008B8B
+color:#000000;
+cursor:pointer;
+border:1px solid #eee;
+box-shadow: 7px 7px #5f9ea0;
 }
 
 .message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
+box-shadow:none;
+position:relative;
+top:7px;
+left:7px;
+transform: rotate(45deg);
+transiton: 1s transform;
 }
 
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  color: #95a5a6;
+
+}
+
+footer p1 {
+  font-family:brush script std;
+  font-size: 20px;
+  color: #9b59b6;
+
 }
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  border-top: 1px solid #7f8c8d;
 }
