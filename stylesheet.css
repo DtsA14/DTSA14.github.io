@@ -129,6 +129,13 @@ a {
   background-color: #f7f7f7;
   text-align: center;
 }
+
+.lesson:hover {
+    background-color:#9c88ff;
+    border-radius:15%;
+    transform:rotateY(130deg);
+}
+
 .heading {
   padding-top: 60px;
   padding-bottom: 30px;
