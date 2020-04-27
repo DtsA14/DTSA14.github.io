@@ -61,15 +61,15 @@ header {
 }
 
 .top-wrapper {
-  height: 400px;
+  height: 510px;
   background-color: rgb(69, 150, 255, 0.9);
   color: white;
   background-image: url(https://digitalent.kominfo.go.id/assets/@images/small-ld.png);
   background-repeat: no-repeat;
   background-position-x: 820px;
-  background-size: 400px;
+  background-size: 500px;
   max-width: 100%;
-  padding-top: 140px;
+  padding-top: 120px;
 }
 
 
@@ -86,12 +86,15 @@ header {
 }
 
 .top-wrapper h1 {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  font-size: 36px
 }
 
 .top-wrapper p {
   opacity: 0.7;
-  margin-bottom: 3px;
+  margin-bottom: 20px;
+  font-size: 25px;
+
 }
 
 a {
